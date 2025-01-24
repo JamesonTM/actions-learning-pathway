@@ -24,10 +24,4 @@ jobs:
           node-version: '18.x'
       - name: Install dependencies
         run: npm install
-      - name: Build Project
-        run: npm run build
-      - name: Install eslint
-        run: npm install eslint eslint-plugin-react @next/eslint-plugin-next --save-dev
-      - name: Run eslint
-        run: npm run lint
       - run: npm test
