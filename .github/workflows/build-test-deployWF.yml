@@ -1,4 +1,4 @@
-name: build-test-deploy
+name: build-test-deployWF
 # on: push - changed to make workflow
 on:
   workflow_call:
