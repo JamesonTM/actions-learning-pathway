@@ -1,7 +1,7 @@
 name: build-test-deploy
 on: push
 jobs: 
-  my-job: move-to-dev
+  my-job:
     # Importing a reusable workflow from another repository and branch
     uses: JamesonTM/actions-learning-pathway/.github/workflows/build-test-deployWF.yml@main
     # Passing 'node-version' as an input parameter to the reusable workflow
