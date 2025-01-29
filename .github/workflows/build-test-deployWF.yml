@@ -1,5 +1,8 @@
 name: build-test-deployWF
 # on: push - changed to make workflow
+permissions:
+  contents: read
+  pull-requests: write
 on:
   workflow_call:
     # Introduced 'inputs' to define parameters that can be passed when calling this workflow
